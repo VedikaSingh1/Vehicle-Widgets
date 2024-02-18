@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  overflow: scroll;
+  background: linear-gradient(45deg, #f5ff33, #66ffcf, #99fff3);
+}
+
+h3 {
+  text-align: center;
+}
+
+.display {
+  display: flex;
+  grid-template-columns: repeat(2, 1fr);
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  margin: 80px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.5); /* Blurred background */
+}
+
+.speedometer,
+.thermometer,
+.odometer,
+.battery {
+  margin-right: 30px; /* Add some gap between the cards */
+  padding: 0px;
+  border-radius: 10px;
+  transition: filter 0.3s ease-out;
+  align-items: center;
+}
+.thermometer {
+  margin-left: 50px;
+}
+.thermometer-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.thermometer-item {
+  margin: 10px;
+}

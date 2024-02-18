@@ -1,0 +1,4 @@
+/* Custom styles to increase the size of the odometer */
+.odometer {
+  font-size: 60px; /* Adjust the font size as needed */
+}
